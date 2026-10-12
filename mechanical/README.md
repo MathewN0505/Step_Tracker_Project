@@ -1,0 +1,1 @@
+This folder contains the cad files for the mechanical casing of the step tracker project
