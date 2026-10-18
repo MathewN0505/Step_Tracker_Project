@@ -38,3 +38,12 @@ The net labels are as follows:
 - LCD_A0: The LCD command/data selection
 - LCD_RESET: The LCD reset 
 
+## Accelerometer Block
+This block of the PCB contains the accelerometer (LSM6DS3TR-C). It is connected to the controller block via I2C, and also has an interrupt pin for step detection. 
+
+## Memory Block
+This block of the PCB contains the EEPROM (AT24C04). It is connected to the controller block via I2C, and is used to store the step count. 
+
+## Display Block
+This block of the PCB contains the LCD (SSD1306B02). It is connected to the controller block via I2C, and is used to display the step count.
+
